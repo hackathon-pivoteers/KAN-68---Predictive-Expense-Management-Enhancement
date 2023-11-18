@@ -76,3 +76,7 @@ We welcome contributions from the community! If you're interested in contributin
 ## License
 
 This project is licensed under the [MIT License](LICENSE). 
+ 
+
+## JIRA KAN-70 Update
+Additionally, this feature incorporates natural language processing (NLP) capabilities to extract information from expense descriptions, further enhancing the predictive accuracy. This allows the system to identify specific categories, vendors, and even sentiment associated with each expense, providing more nuanced insights into spending behavior. Users can benefit from better expense categorization and a deeper understanding of their spending habits.
