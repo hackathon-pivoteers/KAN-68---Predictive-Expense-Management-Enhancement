@@ -76,24 +76,3 @@ We welcome contributions from the community! If you're interested in contributin
 ## License
 
 This project is licensed under the [MIT License](LICENSE). 
- 
-
-## JIRA KAN-70 Update
-**Technical Document: Implementing ML Algorithms for Expense Prediction in SAP Concur**
-
-Objective:
-Implement machine learning algorithms in SAP Concur to predict future expenses based on historical data, providing users with accurate predictions and spending pattern insights.
-
-Steps:
-1. Algorithm Selection: Collaborate with data scientists to choose suitable algorithms based on data nature, prediction accuracy, and computational efficiency.
-
-2. Integration with Predictive Module: Integrate selected algorithms into SAP Concur's Predictive Expense Management module to retrieve and process historical expense data for predictions.
-
-3. Testing and Validation: Thoroughly test and validate implemented algorithms using various scenarios and metrics like mean squared error (MSE) for accuracy and reliability assessment.
-
-4. User Interface Integration: Collaborate with UX/UI designers to display predicted expenses and trends in a user-friendly manner, enhancing the overall user experience.
-
-5. Code Implementation: Load historical expense data, initialize and train the model, make predictions, and evaluate model performance using Python code.
-
-Conclusion:
-Implementing ML algorithms in SAP Concur enhances expense management by providing accurate predictions and insights. By following the outlined steps for algorithm selection, integration, testing, and UI integration, users can benefit from an efficient and seamless expense prediction solution within SAP Concur.
