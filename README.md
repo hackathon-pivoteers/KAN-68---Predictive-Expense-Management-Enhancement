@@ -76,3 +76,15 @@ We welcome contributions from the community! If you're interested in contributin
 ## License
 
 This project is licensed under the [MIT License](LICENSE). 
+ 
+
+## JIRA KAN-71 Update
+<h2>Expense Data Integration and Analysis</h2>
+
+<p>This feature integrates historical expense data into SAP Concur and performs data analysis to identify patterns and trends. It ensures data integrity and accuracy while establishing a reliable dataset for predictive modeling. Key tasks include:</p>
+<ul>
+<li>Collaborating with the data engineering team for seamless integration of historical expense data.</li>
+<li>Analyzing expense data within SAP Concur to identify key metrics.</li>
+<li>Ensuring data accuracy and completeness through validation checks and cleaning processes.</li>
+<li>Providing integrated and analyzed data to data scientists for predictive modeling.</li>
+</ul>
