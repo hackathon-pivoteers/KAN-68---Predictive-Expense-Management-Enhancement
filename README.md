@@ -86,4 +86,18 @@ The 'options' section configures the chart, allowing it to be responsive and set
 5. Collect user feedback and iterate on the design.
 6. Test for usability, responsiveness, and data accuracy.
 7. Make necessary improvements and optimizations.
-8. Document and comment code for future maintenance.
+8. Document and comment code for future maintenance. 
+
+## JIRA KAN-69 Update
+<h2>User-friendly Dashboard for Predicted Future Expenses</h2>
+
+<p>This feature focuses on developing a user-friendly dashboard within SAP Concur that displays predicted future expenses based on historical data. The dashboard provides users with a clear and intuitive interface for viewing expense predictions and trends.</p>
+<p>The main tasks for this feature include:</p>
+<ul>
+<li>Collaborating with UX/UI designers to understand design requirements and provide input on technical feasibility and enhancements</li>
+<li>Implementing frontend components of the dashboard, ensuring responsive design for different screen sizes</li>
+<li>Integrating the dashboard with the Predictive Expense Management module, ensuring seamless communication and data exchange</li>
+<li>Implementing visual representations of predicted future expenses, spending trends, and relevant insights using charts and graphs</li>
+<li>Implementing mechanisms for collecting user feedback on the dashboard's usability and effectiveness, iterating on the design based on feedback</li>
+</ul>
+<p>This feature enhances the experience of users by providing them with valuable insights and predictions on their future expenses, helping them make informed decisions and better manage their finances.</p>
