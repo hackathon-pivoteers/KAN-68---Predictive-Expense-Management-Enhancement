@@ -62,4 +62,28 @@ We welcome contributions from the community! If you're interested in contributin
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). 
+
+## JIRA KAN-69 Update
+**Predictive Expense Management Dashboard**
+
+**Code Explanation:**
+This code implements a user-friendly dashboard using HTML and JavaScript to visualize predicted expenses. It utilizes the Chart.js library to display expense predictions and trends.
+
+The code starts with the basic HTML structure and includes the Chart.js library. The CSS style ensures the chart canvas is centered and has a maximum width of 600 pixels.
+
+The script section initializes mock data for predicted expenses and months. These should be replaced with real data from the Predictive Expense Management module.
+
+The chart is created using Chart.js with the 'line' type. Labels are set to the months array, and predicted expenses are set as data. Additional styling options are provided.
+
+The 'options' section configures the chart, allowing it to be responsive and setting the y-axis to start from zero.
+
+**Next Steps:**
+1. Finalize design requirements and gather assets with UX/UI designers.
+2. Replace mock data with real data from the Predictive Expense Management module.
+3. Enhance frontend based on design requirements.
+4. Integrate frontend with the Predictive Expense Management module.
+5. Collect user feedback and iterate on the design.
+6. Test for usability, responsiveness, and data accuracy.
+7. Make necessary improvements and optimizations.
+8. Document and comment code for future maintenance.
