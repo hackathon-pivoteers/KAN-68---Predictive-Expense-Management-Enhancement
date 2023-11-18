@@ -1,20 +1,33 @@
 ```mermaid
-graph LR
-A[Initiate Development] --> B[Requirement Gathering]
-B --> C[Design Solution]
-C --> D[Develop Software]
-D --> E[Test Software]
-E --> F[Deploy to Production]
-F --> G[Monitor Performance]
-G --> H[Collect Expense Data]
-H --> I[Analyze Expense Data]
-I --> J[Build Predictive Models]
-J --> K[Validate Models]
-K --> L[Integrate with Expense Management]
-L --> M[Enable Predictive Expense Management]
-M --> N[Evaluate Performance]
-N --> O[Refine Predictive Models]
-O --> P[Continuously Monitor and Improve]
+graph TD
+  subgraph User
+    A((User))
+  end
+ 
+  subgraph 'Predictive Expense Management'
+    B[Homepage]
+    C[View Expense List]
+    D[Add Item]
+    E[Remove Item]
+    F[Mark as Purchased]
+  end
+ 
+  subgraph 'Database'
+    G[User Data]
+    H[Expense List Data]
+  end
+ 
+  A -->|1. Access| B
+  A -->|2. View list| C
+  A -->|3. Add item| D
+  A -->|4. Remove item| E
+  A -->|5. Mark as purchased| F
+ 
+  B -->|6. Retrieve data| G
+  C -->|7. Retrieve data| H
+  D -->|8. Update data| H
+  E -->|9. Update data| H
+  F -->|10. Update data| H
 ```
 # Predictive Expense Management
 
@@ -63,27 +76,3 @@ We welcome contributions from the community! If you're interested in contributin
 ## License
 
 This project is licensed under the [MIT License](LICENSE). 
-
-## JIRA KAN-69 Update
-**Predictive Expense Management Dashboard**
-
-**Code Explanation:**
-This code implements a user-friendly dashboard using HTML and JavaScript to visualize predicted expenses. It utilizes the Chart.js library to display expense predictions and trends.
-
-The code starts with the basic HTML structure and includes the Chart.js library. The CSS style ensures the chart canvas is centered and has a maximum width of 600 pixels.
-
-The script section initializes mock data for predicted expenses and months. These should be replaced with real data from the Predictive Expense Management module.
-
-The chart is created using Chart.js with the 'line' type. Labels are set to the months array, and predicted expenses are set as data. Additional styling options are provided.
-
-The 'options' section configures the chart, allowing it to be responsive and setting the y-axis to start from zero.
-
-**Next Steps:**
-1. Finalize design requirements and gather assets with UX/UI designers.
-2. Replace mock data with real data from the Predictive Expense Management module.
-3. Enhance frontend based on design requirements.
-4. Integrate frontend with the Predictive Expense Management module.
-5. Collect user feedback and iterate on the design.
-6. Test for usability, responsiveness, and data accuracy.
-7. Make necessary improvements and optimizations.
-8. Document and comment code for future maintenance. 
