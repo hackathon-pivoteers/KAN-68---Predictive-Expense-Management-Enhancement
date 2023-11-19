@@ -87,4 +87,7 @@ This project is licensed under the [MIT License](LICENSE).
 <li>Analyzing expense data within SAP Concur to identify key metrics.</li>
 <li>Ensuring data accuracy and completeness through validation checks and cleaning processes.</li>
 <li>Providing integrated and analyzed data to data scientists for predictive modeling.</li>
-</ul>
+</ul> 
+
+## JIRA KAN-69 Update
+This feature develops a user-friendly dashboard within SAP Concur that displays predicted future expenses based on historical data. The dashboard provides an intuitive interface for viewing expense predictions, trends, and insights. Tasks include collaborating with designers, implementing responsive frontend components, integrating with Predictive Expense Management, and collecting user feedback for iterative design improvements. This feature greatly enhances the user experience by helping users make informed decisions and manage their finances effectively.
